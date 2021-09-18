@@ -11,7 +11,7 @@ const Login = ({ handleShowRegister }) => {
     handleSubmit,
     formState: { errors },
   } = useForm();
-
+  console.log(errors);
   const onSubmit = (data) => {
     dispatch(submitLogin(data));
   };
@@ -25,16 +25,17 @@ const Login = ({ handleShowRegister }) => {
             <div className="col-md-5">
               <form onSubmit={handleSubmit(onSubmit)}>
                 <input
-                type='email'
+                  type="email"
                   className={`form-control my-3 ${style.own_input}`}
                   id="email"
-                  {...register("email", { required: true, maxLength: 20 })}
+                  {...register("email", { required: true, maxLength: 30 })}
                   placeholder="Email"
                 />
                 {errors.email && errors.email.type === "required" && (
                   <span>Email is required</span>
                 )}
-                <input type="password"
+                <input
+                  type="password"
                   className={`form-control my-3 ${style.own_input}`}
                   id="password"
                   {...register("password", { required: true, maxLength: 12 })}
@@ -66,8 +67,7 @@ const Login = ({ handleShowRegister }) => {
                 Don't Have An Account{" "}
                 <span
                   className={style.registerShow}
-                  onClick={handleShowRegister}
-                >
+                  onClick={handleShowRegister}>
                   Register
                 </span>{" "}
               </p>

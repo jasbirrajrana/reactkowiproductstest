@@ -23,6 +23,11 @@ const App = () => {
     dispatch(getAllProductsThunk());
   }, [dispatch]);
 
+  const getUser = JSON.parse(localStorage.getItem("loggedInUser"));
+  if (getUser) {
+    console.log(getUser.token);
+  }
+
   return (
     <>
       <Router>
@@ -31,7 +36,7 @@ const App = () => {
           <ScrollToTop />
           <Switch>
             <Route path="/" exact>
-              <Home/>
+              <Home />
             </Route>
             <GuestRoute path="/signup">
               <FinalSite />

@@ -6,6 +6,7 @@ export const submitSignup = (payload) => (dispatch) => {
     .then((data) => {
       localStorage.setItem("isLoggedIn", true);
       localStorage.setItem("loggedInUser", JSON.stringify(data));
+      alert("Successfully logged in!");
       dispatch(setAuthUser(data));
     })
     .catch((err) => {
@@ -19,6 +20,7 @@ export const submitLogin = (payload) => (dispatch) => {
     .then((data) => {
       localStorage.setItem("isLoggedIn", true);
       localStorage.setItem("loggedInUser", JSON.stringify(data));
+      alert("Successfully logged in!");
       dispatch(setAuthUser(data));
     })
     .catch((err) => {

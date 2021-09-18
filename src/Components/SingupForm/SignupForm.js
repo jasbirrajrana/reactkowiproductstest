@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
 import { submitSignup } from "../../store/actions/authActions";
@@ -15,15 +15,18 @@ const SignupForm = () => {
     formState: { errors },
   } = useForm();
 
+  console.log(errors);
   const onSubmit = (data) => {
-    console.log(data);
     dispatch(submitSignup(data));
   };
 
   return (
     <div className={`container ${style.zIndexBox}`}>
       <div className="form-img">
-        <label className={style.formTopImg} htmlFor="file-input" style={{ cursor: "pointer" }}>
+        <label
+          className={style.formTopImg}
+          htmlFor="file-input"
+          style={{ cursor: "pointer" }}>
           <img src={formTop} alt="" />
         </label>
       </div>
@@ -49,9 +52,12 @@ const SignupForm = () => {
             {errors.name && errors.name.type === "required" && (
               <span>Name is required</span>
             )}
-
             <div className={` my-3 ${style.flexBox}`}>
-              <input className={`form-control ${style.countryCode}`}    placeholder="+91" readOnly/>
+              <input
+                className={`form-control ${style.countryCode}`}
+                placeholder="+91"
+                readOnly
+              />
               <input
                 type="number"
                 className={`form-control ${style.own_input}`}
@@ -63,7 +69,6 @@ const SignupForm = () => {
             {errors.mobno && errors.phone.type === "required" && (
               <span>Phone is required</span>
             )}
-
             <input
               className={`form-control my-3 ${style.own_input}`}
               id="email"
@@ -79,9 +84,9 @@ const SignupForm = () => {
               {...register("password", { required: true, maxLength: 12 })}
               placeholder="Password"
             />
-            {errors.password && errors.password.type === "required" && (
+            {/* {errors.password && errors.password.type === "required" && (
               <span>Password is required</span>
-            )}
+            )} */}
             <div className="d-flex justify-content-start my-3">
               <label className="me-2" htmlFor="gender-male">
                 <img src={formIcon} alt="icon" />
@@ -91,8 +96,7 @@ const SignupForm = () => {
                   value="Male"
                   id="gender-male"
                   {...register("gender", { required: true })}
-                  style={{ display: "none" }}
-                ></input>
+                  style={{ display: "none" }}></input>
               </label>
 
               <label className="me-2" htmlFor="gender-female">
@@ -103,8 +107,7 @@ const SignupForm = () => {
                   value="Female"
                   id="gender-female"
                   {...register("gender", { required: true })}
-                  style={{ display: "none" }}
-                ></input>
+                  style={{ display: "none" }}></input>
               </label>
 
               <label className="me-2" htmlFor="gender-others">
@@ -115,8 +118,7 @@ const SignupForm = () => {
                   value="Prefer not to say"
                   id="gender-others"
                   {...register("gender", { required: true })}
-                  style={{ display: "none" }}
-                ></input>
+                  style={{ display: "none" }}></input>
               </label>
             </div>
             {/* <input
