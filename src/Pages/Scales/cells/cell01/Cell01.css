@@ -1,0 +1,286 @@
+.scale-nav-wrapper{
+    width: 100%;  
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  
+    
+}
+
+
+.sect-01-row-02-div-01{    
+
+}
+.sect-01-row-02-div-02{
+    margin-top: 5vh;   
+    
+}
+
+.buy-now{
+   color: #FF5A5A;
+   position: absolute;
+   width: 150px;
+   font-family: "Quicksand";
+   text-decoration: none;   
+   font-size: 25px;
+   left: 50vw;
+   bottom: 78vh;
+
+}
+.sect-01-row-02{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    position: relative;
+    top: 5vh;
+}
+
+.row-02-div-01{
+    width: 100%;
+    height: 30%;
+    margin-top: -5vh;
+}
+.title{
+  font-size: 40px;
+  color:#115157;
+  font-weight: 700;
+  
+  left: 35vw;
+  font-family: "Roboto";
+  text-align: center;
+}
+.nav{
+    text-align: center;
+    position: relative;
+}
+
+
+
+.content{
+    font-size: 25px;
+    color:#535353;
+    text-align: left;
+    margin: auto;
+    font-family: "Roboto";
+    max-width: 60%;
+}
+
+a{
+    color: #115157;
+    font-weight: 700;
+}
+
+.bold-text{
+    color: #115157;
+    font-weight: 700;
+}
+.row-02-div-02{
+    width: 100%;
+    height: 70%;
+    
+}
+
+
+.heroBaseImage > img {
+    position: relative;
+    margin: auto; 
+    height: 60vh;
+    top: 5vh;
+    left: 30vh;
+    
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.heroImagesWrapper{
+    top: 70vh;
+    left: 10vw;
+}
+  
+.heroImagesWrapper,.heroleftContainer, .herorightContainer,
+.heromidLeft, .heromidRight
+{
+    position: absolute;
+    display: flex;
+}
+
+.herofarLeft{
+    position: absolute;
+    left: 20vw;
+    top: 20vh;
+}
+
+.herofarRight{
+    position: relative;
+    left: 70vw;
+  
+}
+
+.herotopLeft{
+    position: relative;
+    left: 8vw;
+    top: -25vh;
+}
+
+.herotopRight{
+    position: relative;
+    left: 50vw;
+    top: -4vh
+}
+
+.herobottomLeft{
+    position: relative;
+    left: 20vw;
+    top: -45vh
+    
+}
+
+.herobottomRight{
+    position: relative;
+    left: 55vw;
+    top: -25vh;
+}
+
+
+@media screen and (max-width: 1280px){
+
+    .heroBaseImage > img {
+        position: relative;
+        margin: auto; 
+        height: 60vh;
+        top: 5vh;
+        left: 12vh;
+        
+    }
+
+    .nav-menu{
+        margin-top: 3vh;
+    }
+    
+    .home-black{
+        display: flex;
+        width: 150px;
+        height: 100px;
+        position: relative;
+        
+      }
+      img{
+          width: inherit;
+          height: inherit;
+       }
+
+       .title{
+        font-size: 32px;        
+        font-weight: 700;
+        
+      }
+      
+      .content{
+        font-size: 22px;      
+        text-align: center;
+        max-width: 80%;        
+        
+    }
+}
+
+@media screen and (max-width: 600px){
+    
+    .scale-nav-wrapper{
+        height: auto;
+
+    }
+
+    .sect-01-row-01{
+        width: 100%;
+        height: auto;
+    }
+
+    .sect-01-row-02{
+        
+        height: auto;
+        padding-bottom: 10px;
+        
+    }
+
+    .sect-01-row-02-div-01{
+        margin-top: 12vh;
+        
+    }
+
+    .title{
+        font-size: 24px; 
+      }
+    
+    
+
+    .content{
+        font-size: 18px;
+        text-align: left;
+        min-width: 95%;
+    }
+
+    .bmi-scale-mobile-image{
+        display: flex;
+        width: 95%;
+        height: auto; 
+        
+        
+      
+       }
+       img{
+           width: inherit;
+           height:inherit;
+           object-fit: contain;
+           margin: inherit;
+       }
+    
+    .nav-container.prod-sect{
+        background: #fff;
+    }
+
+    .nav-menu.active.prod-sect{
+        background: #fff;
+        top: 10vh;
+        margin-left: -5vw;
+    }
+    
+    .fa-bars.prod-sect {
+        color: #535353;        
+    }
+
+    .fa-times.prod-sect {
+        color: #535353;        
+    }
+
+    .buy-now{  
+        position: absolute; 
+        font-size: 16px;
+        width: 70px;
+        margin-left:75vw;
+        margin-top: 13vh;     
+        
+    }
+
+    .home-black{
+        position: absolute;
+        margin-left:50vw;
+        margin-top: 13vh; 
+        z-index: 500;
+    }
+
+    .title.nav{
+        margin-left: -22vw;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+    
+  
+
+}

@@ -1,0 +1,34 @@
+
+
+
+.ownStyle{
+  position: relative;
+  z-index: 9;
+}
+.ownStyle::before{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 50%;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(243, 243, 243, 0.541);
+  z-index: -7;
+}
+.informationSec{
+  padding-top: 100px;
+}
+.bmiSection{
+  padding-top: 100px;
+}
+.shoppingCart{
+  padding-top: 70px;
+  height: 100vh;
+}
+.Reviews{
+  padding-top: 50px;
+}
+
+
+
+

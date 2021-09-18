@@ -1,0 +1,573 @@
+.progress-nav * {
+  font-family: Roboto, sans-serif;
+  color: #949494;
+  font-weight: 400;
+  cursor: pointer;
+}
+.nav-step {
+  font-size: 48px;
+  font-weight: 100;
+}
+.nav-header {
+  font-size: 24px;
+}
+
+.step-active * {
+  color: #105157 !important;
+}
+
+.line {
+  height: 3px;
+}
+
+.product-title {
+  font-family: Roboto, sans-serif;
+  color: #105157;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.product-description {
+  font-family: Roboto, sans-serif;
+  color: #105157;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+.product-description span i {
+  color: #ff5a5a;
+}
+.promoWithTotal {
+  color: #105157;
+  font-family: Roboto;
+}
+
+/*  */
+.text-mute {
+  color: #949494;
+  font-size: 14px;
+  margin: 0;
+}
+.fs-16 {
+  font-size: 16px !important;
+}
+.fs-18 {
+  font-size: 18px !important;
+}
+.fs-21 {
+  font-size: 21px !important;
+}
+.fs-24 {
+  font-size: 24px !important;
+}
+
+.cart-option select {
+  border: none !important;
+  outline: none !important;
+  color: #105157;
+  font-family: Roboto;
+  font-weight: 500;
+  height: 21px;
+}
+.cart-option {
+  color: #105157;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+.custom-btn {
+  background-color: #eafab0;
+  border-radius: 10px;
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: 400;
+  font-family: Roboto;
+  color: #003441;
+  padding: 5px 30px;
+}
+
+/* address and payment */
+.custom-input {
+  width: 100%;
+  border: none;
+  border-radius: 14px;
+  box-shadow: 4px 0px 24px #00000010;
+  font-size: 16px;
+  padding: 10px 25px;
+  outline: none !important;
+}
+
+.payment-method {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  color: #94949494;
+  height: 86px;
+  padding-left: 40px;
+  border-radius: 14px;
+  box-shadow: 4px 0px 24px #00000010;
+}
+
+.payment-method p {
+  color: #94949494;
+  font-size: 21;
+  margin: 0;
+  padding: 0;
+}
+
+.pay-active *,
+.payment-method:hover * {
+  color: #ff5a5a !important;
+}
+
+.pay-active::after,
+.payment-method:hover::after {
+  content: "";
+  width: 13px;
+  background-color: #ff5a5a;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.payment-card {
+  box-shadow: 4px 0px 24px #00000010;
+  padding: 40px;
+  border-radius: 14px;
+}
+.payment-card-title {
+  font-size: 21px;
+  color: #105157;
+  margin: 0;
+  padding: 0;
+}
+
+/* order */
+
+.order-banner img {
+  width: 100%;
+}
+
+.order-message h3 {
+  font-size: 42px;
+  color: #ff5a5a;
+}
+
+.order-message p {
+  font-size: 24px;
+  color: #105157;
+}
+
+.circle {
+  height: 22px;
+  width: 22px;
+  background-color: #a0a0a0;
+  border-radius: 50%;
+  position: relative;
+}
+
+.hasBarParent {
+  position: relative;
+}
+
+.hasBarAfter::after {
+  content: "";
+  position: absolute;
+  top: 9px;
+  right: 0;
+  width: 42%;
+  height: 3px;
+  background-color: #a0a0a0;
+}
+.hasBarBefore::before {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 0;
+  width: 42%;
+  height: 3px;
+  background-color: #a0a0a0;
+}
+
+.hasBarAfterDone::after {
+  content: "";
+  position: absolute;
+  top: 9px;
+  right: 0;
+  width: 42%;
+  height: 3px;
+  background-color: #ff5a5a;
+}
+.hasBarBeforeDone::before {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 0;
+  width: 42%;
+  height: 3px;
+  background-color: #ff5a5a;
+}
+
+.progress-done,
+.progress-done::before {
+  background-color: #ff5a5a !important;
+}
+
+.order-place-info p,
+.order-contact p,
+.delevery-address p {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  color: #105157;
+  font-weight: bold;
+}
+
+.order-place-info p span,
+.order-contact span,
+.delevery-address span {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  color: #a0a0a0;
+  font-weight: normal;
+}
+
+.order-progress h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #105157;
+}
+.order-progress h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #ff5a5a;
+}
+.downloadBtn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  background: #ff5a5a;
+  border: 0;
+  border-radius: 24px;
+}
+
+@media screen and (max-width: 767px) and (min-width: 375px) {
+  .nav-header {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: capitalize;
+  }
+  .rightArrow {
+    width: 13px;
+    overflow: hidden;
+  }
+  .progressBar {
+    margin-top: 3.8rem;
+    padding: 0.5rem 0;
+  }
+  .shoppingCart {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #105157;
+    margin-bottom: 20px;
+    margin-top: 25px;
+  }
+
+  .product-title {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .product-description {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .amountSmall {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #105157;
+    margin-top: 18px;
+  }
+  .amountSmall > .discount {
+    color: rgba(16, 81, 87, 0.6);
+  }
+  .cart-option {
+    margin-top: 10px;
+    font-weight: 500;
+    width: 5.5rem;
+    text-align: end;
+  }
+  .cart-option select {
+    height: 15px;
+  }
+  .paymentDetail h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #105157;
+  }
+  .totalAmount {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 25px;
+    color: #105157;
+  }
+  .custom-btn {
+    font-size: 18px;
+    line-height: 21px;
+    padding: 5px 12px;
+  }
+  .headingDesignSmall {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px !important;
+    line-height: 24px !important;
+    text-transform: capitalize;
+    color: #105157;
+  }
+  .textDesignSmall {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px !important;
+    line-height: 18px !important;
+    text-transform: capitalize;
+    color: #105157;
+  }
+  .payment-method {
+    height: 50px;
+    padding-left: 30px;
+    border-radius: 7px;
+  }
+
+  .payment-method p {
+    color: #94949494;
+    font-size: 21;
+    margin: 0;
+    padding: 0;
+  }
+
+  .payment-card {
+    box-shadow: none;
+    padding: 0px 0.6rem;
+    border-radius: 0px;
+  }
+  .payment-card-title {
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 600;
+    color: #105157;
+    margin: 0;
+    padding: 0;
+  }
+  .custom-input {
+    font-size: 16px;
+    padding: 7px 18px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+  }
+  .order-message h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ff5a5a;
+  }
+
+  .order-message p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #105157;
+  }
+  .orderNum {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #105157;
+  }
+  .order-place-info p,
+  .order-contact p,
+  .delevery-address p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 21px;
+    color: #105157;
+    font-weight: bold;
+  }
+
+  .order-place-info p span,
+  .order-contact span,
+  .delevery-address span {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 18px;
+    color: #a0a0a0;
+    font-weight: normal;
+  }
+  .order-contact p {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .hasBarParent {
+    position: relative;
+    margin-bottom: 10px;
+    height: 100px;
+    overflow: hidden;
+  }
+
+  .hasBarAfter::after {
+    display: none;
+  }
+  .hasBarBefore::before {
+    display: none;
+  }
+
+  .hasBarAfterDone::after {
+    display: none;
+  }
+  .hasBarBeforeDone::before {
+    display: none;
+  }
+
+  .hasBarAfterSmall,
+  .hasBarAfterSmallDone {
+    position: relative;
+    height: 100%;
+  }
+
+  .hasBarAfterSmall::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 9px;
+    width: 3px;
+    height: 100%;
+    background-color: #a0a0a0;
+  }
+  .hasBarAfterSmallDone::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 9px;
+    width: 3px;
+    height: 100%;
+    background-color: #ff5a5a;
+  }
+  .lastCircleSmall {
+    height: auto;
+  }
+  .order-progress h2 {
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 2rem;
+  }
+  .orderTrackSmall {
+    display: flex;
+    margin: 1rem 0 1.5rem 0;
+  }
+  .deleveryAddressSmall {
+    position: relative;
+    padding-left: 2rem;
+  }
+  .deleveryAddressSmall p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #105157;
+  }
+  .deleveryAddressSmall span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #a0a0a0;
+  }
+  .deleveryAddressSmall::before {
+    content: "";
+    height: 100%;
+    width: 2px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(201, 201, 201, 1) 49%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    position: absolute;
+    left: 0px;
+  }
+  .orderTrackProgressSmall {
+    width: 47rem;
+    height: 100%;
+  }
+  .orderTitle p {
+    font-family: Roboto;
+    font-weight: 600;
+    color: #105157;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 1rem 0;
+  }
+  .downloadBtn {
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    background: #ff5a5a;
+    border: 0;
+    border-radius: 8px;
+  }
+}

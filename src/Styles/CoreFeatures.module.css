@@ -1,0 +1,149 @@
+.coreFeaturesWrapper{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;    
+    display: flex;
+    margin-bottom: 5vh;
+}
+
+.coreFeaturesTitle{
+    font-size: 36px;
+    font-weight: 700;
+    position: absolute;   
+    left: 41vw;
+    color: #105157;
+}
+
+.mainImage{
+    position: relative;
+    margin: auto;
+    left: 20vw;
+    top: 25vh;
+    
+}
+
+.mainImage > img {
+    height: 70vh;
+    width: auto;
+}
+
+.farRight{
+    position: relative;    
+    left: 35vw;
+    top: 45vh;
+    height: 28vh;
+}
+
+
+
+.farLeft{
+    position: relative;    
+    left: 5vw; 
+    top: 45vh;
+    height: 28vh;
+}
+
+.topLeft{
+    position: relative;    
+    left: 15vw; 
+    top: -10vh;
+    height: 25vh;
+}
+
+.bottomLeft{
+    position: relative;    
+    left: 15vw; 
+    top: 20vh;
+    height: 25vh;
+}
+
+.topRight{
+    position: relative;    
+    left: 25vw; 
+    top: -10vh;
+    height: 25vh;
+}
+
+.bottomRight{
+    position: relative;    
+    left: 25vw; 
+    top: 20vh;
+    height: 25vh;
+}
+
+
+@media screen and (max-width: 1280px) {
+    .coreFeaturesWrapper{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;    
+        display: flex;
+    }
+    
+    .coreFeaturesTitle{
+        font-size: 36px;
+        font-weight: 700;
+        position: absolute;   
+        left: 41vw;
+        color: #105157;
+    }
+    
+    .mainImage{
+        position: relative;
+        margin: auto;
+        left: 15vw;
+        top: 15vh;
+        
+    }
+    
+    .mainImage > img {
+        height: 70vh;
+        width: auto;
+    }
+    
+    .farRight{
+        position: relative;    
+        left: 30vw;
+        top: 35vh;
+        height: 22vh;
+    }
+    
+    
+    
+    .farLeft{
+        position: relative;    
+        left:0vw; 
+        top: 35vh;
+        height: 22vh;
+    }
+    
+    .topLeft{
+        position: relative;    
+        left: 10vw; 
+        top: -10vh;
+        height: 20vh;
+    }
+    
+    .bottomLeft{
+        position: relative;    
+        left: 10vw; 
+        top: 20vh;
+        height: 20vh;
+    }
+    
+    .topRight{
+        position: relative;    
+        left: 20vw; 
+        top: -10vh;
+        height: 20vh;
+    }
+    
+    .bottomRight{
+        position: relative;    
+        left: 20vw; 
+        top: 20vh;
+        height: 20vh;
+    }
+}
+
+

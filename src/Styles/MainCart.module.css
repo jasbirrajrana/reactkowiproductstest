@@ -1,0 +1,263 @@
+.cartBox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.valueBtn {
+  padding: 0px 5px;
+  border: none;
+  outline: none;
+  background: none;
+  border: 1px solid tomato;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.quantity {
+  font-size: 20px;
+  color: tomato;
+  padding: 0px 30px;
+  font-weight: 700;
+  width: 100px;
+  border: none;
+  text-align: center;
+}
+
+.inCreaseBtn,
+.deCreaseBtn {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 15px 50px;
+  color: tomato;
+  font-family: Roboto;
+}
+
+.cartContentBox {
+  padding-left: 100px;
+  width: 100%;
+}
+
+.inCreaseBtn {
+  border-right: 1px solid tomato;
+}
+
+.deCreaseBtn {
+  border-left: 1px solid tomato;
+}
+
+.cartBtn {
+  background: #ffffff;
+  border: 1px solid #ff6464;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 15px 150px;
+  color: #ff6464;
+  font-weight: 600;
+}
+
+.priceBox {
+  display: flex;
+  justify-content: start;
+}
+
+.current,
+.discount {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: #1051578a;
+  text-decoration: line-through;
+}
+
+.reviews {
+  color: #fd4e4e;
+  font-size: 24px;
+}
+
+.cartTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: #105157;
+  word-spacing: 15px;
+}
+
+.discount {
+  margin-left: 15px;
+  color: #105157;
+  text-decoration: none;
+}
+
+.priceBox > p {
+  color: #105157;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: 12px;
+}
+
+.cartTopContent {
+  position: relative;
+}
+
+.starDesignSmall {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #ff5a5a;
+  font-weight: 600;
+  justify-content: end;
+  position: absolute;
+  right: 0;
+  top: 3px;
+}
+
+.starDesignSmall img {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  color: #fd4e4e;
+}
+
+.reviewStars{
+  margin-top: 3px;
+  height: 24px;
+}
+
+.featuresSection{
+  margin-top: 10vh;
+}
+
+.featuresRow{
+  display: flex;
+  justify-content: space-between;
+  font-family: Roboto;
+  font-size: 24px;
+  color: #535353;
+}
+
+@media screen and (max-width: 1280px){
+  .cartTitle {   
+    font-size: 40px;   
+  }
+
+  .cartBtn {
+   
+    padding: 15px 60px;
+    
+  }
+  .inCreaseBtn,
+  .deCreaseBtn {
+    
+    padding: 13px 20px;
+    
+  }
+
+  .featuresSection{
+    margin-top: 5vh;
+  }
+  
+  .featuresRow{
+  
+    font-size: 20px;
+   
+  }
+
+}
+@media screen and (max-width: 1230px) and (min-width: 768px) {
+}
+
+@media screen and (max-width: 900px) and (min-width: 768px) {
+  .cartBtn {
+    padding: 5px 10px;
+  }
+  .quantity {
+    padding: 0px 5px;
+    width: 35px;
+  }
+  .inCreaseBtn,
+  .deCreaseBtn {
+    font-size: 25px;
+    padding: 5px 10px;
+    color: tomato;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 375px) {
+  .cartContentBox {
+    padding: 0 2.5rem;
+    margin-top: 3rem;
+  }
+  .inCreaseBtn,
+  .deCreaseBtn {
+    font-size: 23px;
+    padding: 7px 10px;
+    font-weight: 700;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .cartBtn {
+    padding: 0 2rem;
+    width: 100%;
+    margin-left: 1rem;
+  }
+  .quantity {
+    font-size: 18px;
+    font-weight: 600 !important;
+    padding: 0px 5px;
+    width: 100%;
+  }
+  .valueBtn {
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 1rem;
+    border-radius: 15px;
+  }
+  .cartTitle {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    word-spacing: 5px;
+  }
+  .disount {
+    margin-left: 8px;
+  }
+  .priceBox > p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .current,
+  .disount {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 576px) and (min-width: 375px) {
+  .cartContentBox {
+    padding: 0rem;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 465px) and (min-width: 375px) {
+  .starDesignSmall {
+    position: relative;
+    top: -5px;
+  }
+}

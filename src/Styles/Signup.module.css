@@ -1,0 +1,54 @@
+.hero__section {
+  height: 700px;
+  width: 100%;
+}
+
+.hero__right__image {
+  position: relative;
+}
+
+.hero__right__image img {
+  position: absolute;
+  top: -208px;
+  right: 0;
+}
+
+.loginmobile {
+  margin-top: 100px;
+}
+
+.leftImg {
+  position: absolute;
+}
+
+.drop__down {
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: mover 1s infinite alternate;
+}
+
+.hero__right__smallImage {
+  display: none;
+}
+
+@media screen and (max-width: 767px) and (min-width: 375px) {
+  .hero__section {
+    height: auto;
+  }
+  .hero__right__image {
+    display: none;
+  }
+  .drop__down {
+    display: none;
+  }
+  .hero__right__smallImage {
+    display: block;
+    overflow: hidden;
+  }
+  .hero__right__smallImage img {
+    width: 100%;
+  }
+}

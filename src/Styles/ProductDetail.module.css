@@ -1,0 +1,45 @@
+.details {
+  width: 100%;
+}
+.details h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+    color: #105157;
+  margin-bottom: 27px;
+  text-align: start;
+}
+.details p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.BuyNowButton{
+  position: absolute;
+  color: tomato;
+  font-weight: bolder;
+  font-size: 24px;
+  font-family: Quicksand;
+  left: 80vw;
+  bottom: 90vh;
+}
+@media screen and (max-width: 767px) and (min-width: 375px) {
+  .details h3 {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 15px;
+    margin-top: 2rem;
+  }
+  .details p {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 2rem;
+  }
+}

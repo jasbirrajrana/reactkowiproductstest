@@ -1,0 +1,24 @@
+.title {
+  text-align: center;
+  color: #105157;
+  font-family: Roboto;
+  padding-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+.privacyContent {
+  font-family: Roboto;
+  margin-bottom: 2rem;
+}
+.privacyContent h4 {
+  color: #105157;
+}
+
+@media screen and (max-width: 767px) and (min-width: 375px) {
+  .title {
+    padding-top: 4.5rem;
+    margin-bottom: 2rem;
+  }
+  .privacyContent {
+    margin: 1.5rem 1.3rem;
+  }
+}

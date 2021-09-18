@@ -1,0 +1,66 @@
+.redictionsContent > h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 53px;
+  /* identical to box height */
+  text-align: center;
+  color: #ff5a5a;
+}
+.PredictionsWrapper {
+  /* border-top: 2px solid red; */
+  padding-top: 62px;
+}
+.redictionsContent > p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+  text-align: center;
+  color: #7c7c7c;
+  padding-top: 20px;
+}
+
+.designImgs {
+  position: relative;
+}
+.LeftImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.smImg {
+  position: absolute;
+  right: 0;
+  top: 210px;
+}
+
+.PredictionsBanner {
+  margin-top: 30px;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) and (min-width: 375px) {
+  .smImg {
+    top: -3.2rem;
+  }
+  .redictionsContent > h3 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .PredictionsWrapper {
+    padding-top: 38px;
+  }
+  .redictionsContent > p {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 24px;
+  }
+  .redictionsContent {
+    padding: 0 2rem;
+  }
+}

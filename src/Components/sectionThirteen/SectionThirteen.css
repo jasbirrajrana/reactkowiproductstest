@@ -1,0 +1,283 @@
+
+.health-trackers-section-wrapper{
+    width: 100%;
+    height: 120vh;
+    margin: auto;
+    object-fit: contain;
+    overflow: hidden;
+    
+}
+
+.health-trackers-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    
+}
+
+.health-trackers-row-01{
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #3194FE;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 45px;
+    max-width: 40%;
+    height: 10vh;
+    padding: 20px;
+    
+}
+
+.health-trackers-row-02{
+    margin-top: 5vh;
+    width: 100vw;
+    height: 85vh;
+    display: block;
+    
+}
+
+.analytics-images-container{
+    display: flex;
+    height: 90vh;
+    width: 100%; 
+    margin-top: 10vh;
+    overflow: hidden;
+    
+    
+    
+}
+
+.tile{
+    height: 150vh;
+    width: 150vh;
+    position: relative;
+    display: flex;
+  }
+  img{
+      
+      position: inherit;
+      height: inherit;
+      width: inherit;
+      object-fit: contain;
+  }
+
+.analytics-bmi{
+    top: -80vh;
+    left: -125vw;
+}
+
+.analytics-bmi-1{
+    top: -110vh;
+    left: -165vw;  
+}
+.analytics-bmi-2{    
+    top: 60vh;
+    left: -345vw; 
+}
+
+.analytics-bmi-3{
+    top: -50vh;
+    left: -342vw;
+}
+
+.analytics-bmi-4{
+    top: 50vh;
+    left: -490vw;
+}
+
+.exercise{
+    top:20vh;
+    left: -75vw;
+}
+.water{
+    height: 150vh;
+    width: 150vh;
+    top: -20vh;
+    left: -590vw;
+    animation-name: enlarge;
+    animation-duration: 10s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;    
+    z-index: 400;
+
+  }
+  @keyframes enlarge {
+    0%   {height: 150vh;
+        width: 150vh;}
+        
+  
+    100% {height: 200vh;
+        width: 200vh;
+        top: -35vh;
+        left: -605vw;}
+    }
+  
+@media screen and (max-width: 1280px){
+    .analytics-images-container{       
+        top: 20vh;      
+        
+    }
+    .health-trackers-row-01{
+        
+        
+        min-width: 50%;
+        
+        
+    }
+    .analytics-bmi{
+        top: -75vh;
+    left: -125vw;
+    }
+    
+    .analytics-bmi-1{
+        top: -120vh;
+    left: -140vw;  
+    }
+    .analytics-bmi-2{    
+        top: 74vh;
+    left: -350vw;
+    }
+    
+    .analytics-bmi-3{
+        top: -55vh;
+    left: -320vw;
+    }
+    
+    .analytics-bmi-4{
+        top: 45vh;
+        left: -480vw;
+    }
+    
+    .exercise{
+        top:28vh;
+    left: -82vw;
+    }
+    .water{
+        height: 150vh;
+        width: 150vh;
+        top: -20vh;
+        left: -593vw;
+        animation-duration: 6s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;    
+        z-index: 400;
+        
+    
+      }
+      @keyframes enlarge {
+        0%   {height: 150vh;
+            width: 150vh;
+            }
+      
+        100% {height: 200vh;
+            width: 200vh;
+            top: -35vh;
+        left: -608vw;
+            }
+       }
+} 
+@media screen and (max-width: 960px){   
+    .health-trackers-section-wrapper{
+        padding-top: 10px;
+    }
+    
+    .health-trackers-row-01{
+        font-family: "Roboto";
+        font-weight: bold;
+        color: #3194FE;
+        padding-top: 20vh;
+        margin: auto;
+        font-size: 40px;
+        min-width: 80%;
+        justify-content: center;
+        text-align: center;
+    }
+    
+
+
+}
+
+@media screen and (max-width: 600px){   
+
+    .health-trackers-section{
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+
+    .health-trackers-row-01{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 24px;
+    }
+
+    .analytics-images-container{
+        height: 90vh;
+        overflow: hidden;
+        
+
+    }
+
+    .tile{
+        height: 90vh;
+        width: 140vw;
+        position: relative;
+      }
+      img{
+          display: flex;
+          position: relative;
+          height: inherit;
+          width: inherit;
+          object-fit: contain;
+      }
+      .analytics-bmi{
+        margin-top: -3vh;
+        margin-left: -52vw;
+    }
+    
+    .analytics-bmi-1{
+        margin-top: -30vh;
+        margin-left: -20vw;  
+    }
+    .analytics-bmi-2{    
+        margin-top: 28vh;
+        margin-left: -80vw; 
+    }
+    
+    .analytics-bmi-3{
+        margin-top: 0vh;
+        margin-left: -20vw;
+    }
+    
+    .analytics-bmi-4{
+        display: none;
+    }
+    
+    .exercise{
+        display: none;
+        
+    }
+    .water{        
+        margin-top: 0vh;
+        margin-left: -10vw;
+        animation-duration: 6s;
+        animation-delay: 5s;
+        position: absolute;
+    
+       }
+       @keyframes enlarge {
+        0%   {height: 90vh;
+            width: 130vw;
+            }
+      
+        100% {height: 200vh;
+            width: 260vw;
+            margin-top: -20vh;
+            margin-left: -50vw;}
+        }
+     
+        
+}

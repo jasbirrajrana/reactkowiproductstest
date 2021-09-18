@@ -1,0 +1,132 @@
+.how-to-use-wrapper{
+    width: 100%;  
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    
+    
+}
+
+.sect-10-col-01{
+    width: 45%;
+    height: 100%;
+    
+   
+    
+}
+.sect-10-col-02{
+    display: flex;
+    width: 55%;
+    height: 100%;
+    overflow: visible;
+    
+    
+}
+
+.sect-10-image{
+    position: relative;      
+    height: 80vh;
+    width: auto;
+    margin-top: 5vh;
+    float: right;
+    margin-left: 50vw;
+ } 
+ img{
+     height: inherit;
+     width: inherit;
+ }
+
+ .sect-10-description{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-self: center;
+    align-content: center;
+    
+}
+
+.sect-10-title{
+    position: relative;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: -70vw;
+    font-size: 64px;
+    
+}
+
+.sect-10-content{
+    position: relative;
+    margin-top: 0%;
+    min-width: 50vw;
+}
+@media screen and (max-width: 1280px){
+    .sect-10-image{
+        position: relative;      
+        height: 70vh;
+        width: auto;
+        margin-top: 5vh;
+        float: right;
+        margin-left: 50vw;
+     } 
+     img{
+         height: inherit;
+         width: inherit;
+     }
+    
+}
+@media screen and (max-width: 600px){
+    .how-to-use-wrapper{
+        flex-direction: column-reverse;
+        margin-top: 10vh;
+        height: auto; 
+    }
+    
+    .sect-10-col-01{
+        width: 100%;
+        height: auto;
+    }
+    .sect-10-col-02{
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    
+    .sect-10-image{
+        position: relative;      
+        height: auto;
+        width: 90%;
+        margin-top: -15vh;
+        float: center;
+     } 
+     img{
+         height: inherit;
+         width: inherit;
+     }
+    
+     .sect-10-description{     
+        width: 100%;
+        display: flex;
+        margin-top: 5vh;
+        flex-direction: column;
+        position: relative;
+        align-self: center;
+        align-content: center;
+        
+    }    
+    .sect-10-title{
+        position: relative;
+        margin-top: 0vh;
+        margin-bottom: 0vh; 
+        font-size: 24px; 
+
+    }
+    
+    .sect-10-content{
+        position: relative;
+        margin-top: 0%;
+        min-width: 50vw;
+        height: auto;
+    }
+}

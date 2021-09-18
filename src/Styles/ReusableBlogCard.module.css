@@ -1,0 +1,105 @@
+.postBox {
+  width: 90%;
+  cursor: pointer;
+}
+
+.contentBox {
+  background: #ffffff;
+  border: 0.5px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 0px 0px 30px 30px;
+  padding: 18px 10px 10px 10px;
+}
+
+.contentBox > p,
+.contentBox > h3,
+.BlogHeading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #105157;
+  margin-top: 10px;
+}
+
+.BlogHeading {
+  font-family: "Roboto";
+  font-size: 42px;
+  line-height: 49px;
+  color: #000000;
+  position: relative;
+  margin-bottom: 60px;
+}
+.BlogHeading::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  width: 10%;
+  height: 5px;
+  background-color: tomato;
+}
+
+.contentBox > h3 {
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  font-family: "Roboto";
+}
+
+.contentBox > small {
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  font-family: "Roboto";
+}
+
+.contentBox > small:nth-child(1){
+  margin-top: 10px;
+}
+
+.imgBox > img {
+  width: 100%;
+}
+
+
+.contentBox > p{
+  font-family: Roboto;
+}
+.ChevronRight{
+  position: absolute;
+  height: 80px;
+  left: 90vw;
+  margin-top: -20vh;
+  
+
+}
+@media screen and (max-width: 1280px) {
+  .ChevronRight{
+    position: absolute;
+    height: 80px;
+    left: 86vw;
+    margin-top: -20vh;
+    
+  
+  }
+}
+
+
+
+@media screen and (max-width: 767px) and (min-width: 375px) {
+  .BlogHeading {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .BlogHeading::before {
+    height: 3px;
+  }
+  .contentBox > h3 {
+    font-family: "Roboto";
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+  }
+}

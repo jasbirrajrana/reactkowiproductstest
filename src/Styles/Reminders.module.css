@@ -1,0 +1,66 @@
+.reminderContent {
+  margin-top: 140px;
+}
+
+.reminderContent > h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 53px;
+  color: #ff5a5a;
+}
+.reminderReport {
+  text-align: center;
+}
+.reminderContent > p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+  color: #787878;
+  margin-top: 20px;
+  padding-right: 77px;
+  line-height: 27px;
+}
+
+.rightImg {
+  text-align: right;
+  position: relative;
+}
+
+.rightImg > img {
+  position: absolute;
+  top: -205px;
+  right: 0;
+}
+
+@media screen and (max-width: 767px) and (min-width: 375px) {
+  .reminderContent {
+    margin-top: 35px;
+    margin-bottom: 10px;
+  }
+  .reminderContent {
+    text-align: center;
+    padding: 0 30px;
+  }
+  .reminderContent > h3 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .reminderContent > p {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    margin-top: 21px;
+    padding-right: 0px;
+    line-height: 18px;
+  }
+  .rightImg {
+    display: none;
+  }
+  .reminderReport {
+    display: none;
+  }
+}

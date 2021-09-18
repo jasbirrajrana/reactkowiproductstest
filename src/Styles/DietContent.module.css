@@ -1,0 +1,69 @@
+.dietContentWarapper {
+  padding: 0;
+  margin: 0;
+}
+
+.dietContent {
+  text-align: center;
+}
+
+.dietContent > h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 53px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #ff5a5a;
+}
+
+.dietContent > p {
+  color: #787878;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.dietRightImg {
+  text-align: right;
+  width: 100%;
+ }
+
+.dietRightImg > img{
+  height: 80px;
+  margin-right: -32px;
+}
+
+@media screen and (max-width: 767px) and (min-width: 375px) {
+  .dietContentWarapper {
+    position: relative;
+    margin-top: 0.5rem;
+  }
+  .dietLeftImg {
+    position: absolute;
+    top: 0;
+  }
+  .dietRightImg {
+    position: absolute;
+    margin-top: 2.5rem;
+  }
+  .dietContent > h3 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #ff5a5a;
+    margin-top: 8rem;
+  }
+  .dietContent > p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 18px;
+    padding-bottom: 20px;
+  }
+}

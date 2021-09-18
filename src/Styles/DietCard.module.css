@@ -1,0 +1,44 @@
+.leftImg {
+  text-align: left;
+}
+.rightImg {
+  text-align: right;
+}
+.middelImg {
+  text-align: center;
+  transform: translateY(-100px);
+}
+.middelImg > img {
+  width: 85%;
+}
+.rightImg > img {
+  width: 55%;
+}
+.leftImg > img {
+  width: 55%;
+}
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+  .middelImg > img {
+    width: 90%;
+  }
+  .rightImg > img {
+    width: 65%;
+  }
+  .leftImg > img {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 375px) {
+  .middelImg {
+    width: 100%;
+    transform: translateY(0px);
+    background-image: url("https://cdn.kowi.in/products/diet-plan/bgImg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .middelImg > img {
+    margin-top: 2rem;
+    width: 75%;
+    transform: translateX(0px);
+  }
+}

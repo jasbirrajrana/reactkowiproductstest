@@ -1,0 +1,58 @@
+.registerShow {
+  color: rgb(253, 81, 51);
+  text-decoration: tomato;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.loginTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.01em;
+  color: #ff5a5a;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.own_input {
+  border: 1px solid rgba(255, 99, 71, 0.637) !important;
+  outline: none !important;
+  transition: 0.2s;
+}
+
+.own_input::placeholder {
+  color: rgba(255, 99, 71, 0.459);
+  font-weight: 600;
+}
+
+.own_input:focus {
+  box-shadow: inset 0 -1px 0 #ddd;
+  border: 2px solid rgb(255, 84, 54) !important;
+}
+
+.formBtn {
+  background: #ff5a5a;
+  border-radius: 12px;
+  border: none;
+  display: block;
+  padding: 10px 22px;
+  color: aliceblue;
+  font-weight: 700;
+  width: 100%;
+}
+.registerShow1 {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+@media screen and (max-width: 767px) and (min-width: 375px) {
+  .loginTitle {
+    font-size: 30px;
+    line-height: 18px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,97 @@
+.but-wait-wrapper{
+    width: 100%;   
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+ 
+  
+    
+}
+.sect-02-col-01{
+    height: 100%;
+    width: 50%;
+   
+}
+
+.sect-02-image{
+      position: relative;
+      margin-top: 5vh;
+      margin-left: 3vw;
+      height: 90vh;
+      width: auto;
+  }
+  img{
+         height: inherit;
+         width: inherit;
+  }
+.sect-02-col-02{
+    display: flex;
+    width: 50%;
+    height: 100%;
+   
+}
+.sect-02-desciption{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 40vh;
+    margin: auto;
+}
+
+@media screen and (max-width: 1280px){
+    .sect-02-image{
+       
+        margin-top: 2vh;
+    
+    }
+    img{
+           height: inherit;
+           width: inherit;
+    }
+
+    .sect-02-desciption{
+        margin-left: 3vw;
+    }
+    
+}
+
+
+@media screen and (max-width: 600px){
+    .but-wait-wrapper{      
+        flex-direction: column-reverse; 
+        position: relative;
+        margin-top: -30vh;
+              
+    }
+    .sect-02-col-01{
+        height: auto;
+        width: 100%;
+              
+    }
+    .sect-02-image{
+        position: relative;
+        margin-top: 0vh;
+        height: auto;
+        width: 100%;
+    }
+    img{
+           height: inherit;
+           width: inherit;
+    }
+
+    .sect-02-col-02{
+       
+        width: 100%;
+        height: auto;
+        margin-top: 0%;
+       
+    }
+    .sect-02-desciption{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-top: 0%;
+        margin: auto;
+        font-size: 18px;
+    }
+}

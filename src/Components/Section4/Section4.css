@@ -1,0 +1,147 @@
+.social-account-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+   
+   
+}
+.social-account-poster{
+    display:flex; 
+    position: relative;
+    margin-top: 30vh;
+    width: 100%;
+    height: 65vh;    
+    background-color: #003441;
+}
+
+.poster-title{
+    display: flex;
+    color: #FF5A5A;
+    margin-left: 6vw;
+    margin-top:5vh;
+    
+
+}
+
+
+.second{
+    font-size: 45px;
+    position: relative;
+    font-family: "Roboto"; 
+    margin-top: 3vh;   
+    margin-left: 2vw;
+}
+
+.a{
+   top: 0vh;
+   left: -30vw;
+}
+
+.b{
+    top: -30vh;
+    left: -97vw;
+}
+
+.c{
+    top: -37vh;
+    left: -160vw;
+}
+
+.circle-05{
+    display: flex;
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    color: #003441;
+    left: -40px;
+    margin-top: 20vh;
+}
+
+.tile {
+    height: 150vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+   }img{
+       height: inherit;
+       width: auto;
+   }
+
+
+@media screen and (max-width: 1280px){
+
+    .poster-title{
+       margin-top:5vh;       
+    
+    }
+
+ 
+
+    .second{
+        font-size: 40px;        
+        margin-top: 1vh;   
+        margin-left: 1vw;
+    }
+
+    .circle-05{       
+        left: -40px;
+    }
+
+    .a{
+     
+        left: -30vw;
+    }
+    .b{
+        top: -30vh;
+        left: -90vw;
+    }
+
+    .c{
+        top: -35vh;
+        left: -145vw;
+    }
+
+  
+}
+
+@media screen and (max-width: 600px){
+    .social-account-section{
+        background-color: #FEE497;
+    }
+    
+    .social-account-poster{
+        height: 100vh;
+        background-color: #FEE497;
+
+    }
+
+    .poster-title{
+        display: flex;
+        flex-direction: column;
+        color: #FFF;
+        
+    }    
+
+
+    .a{
+     
+        margin-left: -80vw;
+    }
+    .b{
+     
+        margin-left: -20vw;
+        margin-top: 10vh;
+    }
+
+    .c{
+     
+        margin-left: -40vw;
+        margin-top: -10vh;
+    }
+
+    .circle-05{
+        display: none;
+    }
+} 

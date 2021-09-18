@@ -1,0 +1,391 @@
+.footerbg {
+  width: 100%; 
+  position: relative;
+  
+  
+}
+
+.ownRow {
+  margin-top: 162px;
+}
+
+.footerMenu {
+  display: flex;  
+  margin-top: 110px;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+.footerMenu > ul {
+  padding-left: 0px;
+  list-style: none;
+}
+.footerMenu > ul > li {
+  list-style: none;
+  margin-top: 10px;
+  border-left: 1px solid rgb(255, 255, 255);
+  padding-left: 10px;
+  
+}
+
+.footerMenu > ul > li > a {
+  color: #f5f5f5;
+  font-weight: bold;
+  
+}
+
+.contactBtn {
+  background: #FF9A83;
+  border: none;
+  padding: 8px 16px;
+  color: #003441;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.rightBox > div > h3,
+.rightBox > p {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  color: #fff4df;
+}
+
+.col-12.col-md-8{
+  position: fixed;
+  left: 20vw;
+}
+  
+
+.logoBox > p {
+  position: relative;
+  left: 9vw;
+  top: -13vh;
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: capitalize;
+  border-left: 2px solid white;
+  padding-left: 10px;
+  margin-top: 35px;
+}
+
+.footerEmail {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 30px;
+}
+
+.footerEmail > h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: medium;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffaa96;
+}
+
+.footerEmail > form > input {
+  background: #f5f5f5;
+  background-image: url("https://cdn.kowi.in/products/Footer/Email\ Send.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  border-radius: 17px;
+  padding: 12px 22px;
+  width: 40%;
+  border: none;
+  margin-top: 20px;
+  color: black;
+  outline: none;
+}
+
+.footerEmail > form > input:focus {
+  border: 1px solid tomato;
+}
+
+.footerEmail > form > input::placeholder {
+  font-family: Quicksand;
+  font-style: normal; 
+  font-size: 19px;
+  line-height: 24px;
+  /* identical to box height */
+  text-align: left;
+  text-transform: capitalize;
+  color: #ffaaaa;
+}
+
+.logoBox {
+  position: relative;
+  left: 0vw;
+  top: 5vh;
+  display: flex;
+  color: #f5f5f5;
+}
+.footerSmallBg {
+  display: none;
+}
+
+.vl {
+  border-left: 6px solid green;
+  border-width: medium;
+  height: 25px;
+  padding-right: 5px;
+}
+
+.div_02{
+  width: 60%;
+  margin-left: 20vw;
+  position: relative;
+  display: flex;
+  list-style: none;
+  justify-self: flex-end;
+  justify-content: space-evenly;
+  align-self: flex-end;
+  top: 20px;
+}
+
+.copyright{
+  position: relative;
+  top: 0vh;
+  color: #fff;
+  left: -25vw;
+}
+
+.footerMainBg > img{
+   position: absolute;
+   z-index: -10;
+   bottom: 0%;
+  
+}
+@media screen and (max-width: 1280){
+  .footerbg {
+    width: 100%;     
+    bottom: -200px;
+
+    
+  }
+
+  
+  .ownRow {
+    margin-top: 162px;
+  }
+  
+  .footerMenu {
+    display: flex;  
+    margin-top: 130px;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+  .footerMenu > ul {
+    padding-left: 0px;
+    list-style: none;
+  }
+  .footerMenu > ul > li {
+    list-style: none;
+    margin-top: 10px;
+    border-left: 1px solid rgb(255, 255, 255);
+    padding-left: 10px;
+  }
+  
+  .footerMenu > ul > li > a {
+    color: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  .contactBtn {
+    background: #f37b60;
+    border: none;
+    padding: 8px 16px;
+    color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  .rightBox > div > h3,
+  .rightBox > p {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #fff4df;
+  }
+  
+  .col-12.col-md-8{
+    position: fixed;
+    left: 20vw;
+  }
+    
+  
+  .logoBox > p {
+    position: relative;
+    left: 30vw;
+    top: -10vh;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: capitalize;
+    border-left: 2px solid white;
+    margin-left: 10px;
+    margin-top: 55px;
+  }
+  
+  .footerEmail {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 30px;
+  }
+  
+  .footerEmail > h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: medium;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffaa96;
+  }
+  
+  .footerEmail > form > input {
+    background: #f5f5f5;
+    background-image: url("https://cdn.kowi.in/products/Footer/Email\ Send.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 17px;
+    padding: 12px 22px;
+    width: 40%;
+    border: none;
+    margin-top: 20px;
+    color: black;
+    outline: none;
+  }
+  
+  .footerEmail > form > input:focus {
+    border: 1px solid tomato;
+  }
+  
+  .footerEmail > form > input::placeholder {
+    font-family: Quicksand;
+    font-style: normal; 
+    font-size: 19px;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: left;
+    text-transform: capitalize;
+    color: #ffaaaa;
+  }
+  
+  .logoBox {
+    position: relative;
+    left: 0vw;
+    top: 7vh;
+    display: flex;
+    color: #f5f5f5;
+    }
+    img{
+      position: relative;
+      left: -10px;
+    }
+  .footerSmallBg {
+    display: none;
+  }
+  
+  .vl {
+    border-left: 6px solid green;
+    border-width: medium;
+    height: 25px;
+    padding-right: 5px;
+  }
+  
+  .div_02{
+    width: 70%;
+    margin-left: 10vw;
+    position: relative;
+    display: flex;
+    list-style: none;
+    justify-self: flex-end;
+    justify-content: space-evenly;
+    align-self: flex-end;
+    top: -5vh
+  }
+  
+  .copyright{
+    position: relative;
+    top: -5vh;
+    color: #fff;
+    left: -25vw;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 375px) {
+  .footerEmail > form > input {
+    width: 70%;
+  }
+  .footerMenu {
+    display: flex;
+    margin-top: 0;
+    padding-top: 5px;
+    justify-content: space-between;
+    align-items: baseline;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-bottom: 0;
+  }
+  .rightBox > div > h3 {
+    font-size: 21px;
+    line-height: 25px;
+  }
+  .rightBox > div > button {
+    height: 100%;
+    margin-top: 10px;
+  }
+  .footerMenu > ul {
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .footerMenu > ul > li {
+    list-style-type: none;
+    margin-top: 10px;
+    border-left: 0px solid rgb(255, 255, 255);
+    padding-left: 10px;
+    font-size: 13px;
+  }
+  .footerMenu > ul > li > a {
+    color: #f5f5f5;
+  }
+  .contactBtn {
+    background: #badc66;
+    color: #105157;
+    font-weight: 600;
+  }
+  .ownRow {
+    margin-top: 35px;
+  }
+
+  .footerbg {
+    width: 100%;
+    background-image: none;
+    position: relative;
+  }
+  .footerSmallBg {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -10;
+    height: 450px;
+    overflow: hidden;
+  }
+  .footerSmallBg img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 500px) and (min-width: 375px) {
+  .footerSmallBg {
+    height: 350px;
+  }
+}

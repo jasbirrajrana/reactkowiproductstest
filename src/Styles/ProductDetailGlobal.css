@@ -1,0 +1,61 @@
+.electrodesSection {
+  /* border: 2px solid tomato; */
+  width: 100%;
+}
+
+.electrodesSection>p, .waitSection>p, .electrodesSection>h3 {
+  margin-top: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.electrodesSection>h3 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #105157;
+  position: absolute;
+  left: -20vw;
+}
+
+.waitSection {}
+
+.waitSection>p {
+  font-weight: 700;
+  font-size: 20px;
+  padding-right: 50px;
+}
+
+.waitSection>h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: #105157;
+}
+
+.informationSec>h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #105157;
+}
+
+.bmiLogsSec>p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+  color: #000000;
+  padding-left: 50px;
+  line-height: 28px;
+}

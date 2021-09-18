@@ -1,0 +1,38 @@
+.featuresContent {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0px 0px 0px;
+}
+.featuresKey {
+  padding-left: 0px;
+}
+.featuresKey,
+.featuresValue {
+  list-style: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+  color: #000000;
+}
+.featuresValue {
+  text-align: right;
+}
+
+@media screen and (max-width: 900px) and (min-width: 768px) {
+  .featuresKey,
+  .featuresValue {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .featuresContent {
+    padding: 35px 0px 0px 0px;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 375px) {
+  .featuresContent {
+    padding: 30px 0px 0px 0px;
+  }
+}

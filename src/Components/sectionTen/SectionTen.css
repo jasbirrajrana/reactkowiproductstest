@@ -1,0 +1,141 @@
+.social-account-section-2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #FF5A5A;
+    overflow: hidden;
+   
+    
+    
+}
+.social-account-poster-2{
+    display:flex;    
+    background-color: #FF5A5A;
+
+}
+
+.poster-title-2{
+    display: flex;
+    color: #fff;
+    margin-left: 10vw;
+    margin-top:5vh;
+
+}
+
+.first{
+    font-size: 90px;
+    font-weight: lighter;
+}
+
+.second{
+    font-size: 40px;
+    position: relative;
+    font-family: "Roboto"; 
+    margin-top: 3vh;   
+    margin-left: 2vw;
+}
+
+.a_2{
+    top:  0vh;
+    left: -40vw;
+}
+
+.b_2{
+    top: 0vh;
+    left: -105vw;
+}
+
+.c_2{
+    top: 0vh;
+    left: -170vw;
+}
+
+.d_2{
+    top: 0vh;
+    left: -235vw;
+}
+
+@media screen and (max-width: 1280px){
+
+    .second{
+        top: 5vh;
+    }
+    .a_2{
+   
+        left: -50vw;
+    }
+    
+    .b_2{
+ 
+        left: -107vw;
+    }
+    
+    .c_2{
+
+        left: -164vw;
+    }
+    
+    .d_2{
+      
+        left: -194vw;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .social-account-section{
+        background-color: #FEE497;
+    }
+    
+    .social-account-poster{
+        height: 100vh;
+        background-color: #FEE497;
+
+
+    }
+
+    .poster-title-2{
+        margin-top: 0%;
+        display: flex;        
+        flex-direction: column;
+        color: #FFF;
+    }  
+    
+    .first{
+        display: flex;
+        font-size: 80px;
+    
+       
+    }
+    
+    .second{
+        position: relative;
+        margin-top: -2vh;
+        font-size: 20px;
+      
+    }
+    .a_2{
+   
+        margin-left: -25vw;
+        margin-top: 15vh;
+    }
+    
+    .b_2{
+        margin-top: -2vh;
+        margin-left: -40vw;
+    
+    }
+
+    .c_2{
+
+        margin-top: -10vh;
+        margin-left: 60vw;
+    }
+    .d_2{
+      
+        margin-top: -10vh;
+        margin-left: 60vw;
+    }
+
+    
+} 

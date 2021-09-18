@@ -1,0 +1,89 @@
+.contents {
+  background: #2888ff;
+  border-radius: 40px;
+  padding: 30px;
+  margin-right: 80px;
+}
+
+.contents > h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 53px;
+  color: #ffffff;
+}
+.rightRectangle {
+  text-align: right;
+}
+.contents > p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.imgBox {
+  margin-top: 82px;
+  text-align: center;
+}
+.rightImg {
+  text-align: center;
+}
+.smallLeftRectangle {
+  display: none;
+}
+
+.mobileUiSmall {
+  display: none;
+}
+
+@media screen and (max-width: 767px) and (min-width: 375px) {
+  .contents {
+    background: none;
+    border-radius: 0;
+    padding: 0 20px;
+    margin-right: 50px;
+  }
+  .imgBox {
+    margin-top: 4rem;
+  }
+  .contents > h3 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #3194fe;
+    margin-top: -20rem;
+    margin-bottom: 2rem;
+  }
+  .contents > p {
+    font-size: 16px;
+    line-height: 18px;
+    color: #3194fe;
+  }
+  .rightRectangle {
+    display: none;
+  }
+  .leftRectangleImg {
+    text-align: right;
+  }
+  .smallLeftRectangle {
+    position: relative;
+    display: block;
+  }
+  .smallLeftRectangle img {
+    position: absolute;
+    left: -12px;
+    bottom: 20rem;
+  }
+  .leftRectangleImg img {
+    transform: rotate(180deg);
+    margin-bottom: 2rem;
+  }
+  .mobileUiSmall {
+    display: block;
+  }
+  .mobileUiSmall img {
+    width: 100%;
+  }
+}

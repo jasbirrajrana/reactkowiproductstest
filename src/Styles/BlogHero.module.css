@@ -1,0 +1,82 @@
+
+.container.mt-0.pt-5{
+  margin-top: 0%;
+}
+
+.rightPost,
+.bigPost {
+  cursor: pointer;
+}
+
+.title_post_left > h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 28px;
+  color: #105157;
+  margin-top: 20px;
+}
+
+.author_date {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: Roboto;
+}
+
+.bigPost {
+  padding-right: 20px;
+}
+
+.rightPost > img,
+.bigPost > img {
+  width: 100%;
+}
+
+.rightPost {
+  margin-bottom: 30px;
+}
+
+.title_post > h3,
+.title_post > p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #105157;
+}
+
+.title_post > p {
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+
+.postTitle > h3{
+   margin-top: 5px;
+}
+
+.post{
+  font-family: Roboto;
+ }
+
+@media screen and (max-width: 767px) and (min-width: 375px) {
+  .bigPost {
+    padding-right: 0px;
+    margin-bottom: 1.5rem;
+  }
+  .title_post_left > h3 {
+    font-size: 16px;
+    line-height: 19px;
+    color: #105157;
+    margin-top: 10px;
+  }
+  .title_post > h3 {
+    margin-top: 10px;
+  }
+}

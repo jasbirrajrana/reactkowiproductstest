@@ -1,0 +1,23 @@
+.bgSocialImg {
+  width: 100%;
+  overflow: hidden;
+}
+.bgSocialImg img {
+  width: 100%;
+}
+.bgSocialSmallImg {
+  display: none;
+}
+
+@media screen and (max-width: 767px) and (min-width: 375px) {
+  .bgSocialImg {
+    display: none;
+  }
+  .bgSocialSmallImg {
+    display: block;
+    overflow: hidden;
+  }
+  .bgSocialSmallImg img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,77 @@
+.contentBox {
+  position: relative;
+  top: 25%;
+  left: -30%;
+  padding-left: 10px;
+ 
+}
+
+.imgBox {
+  padding-left: 30px;
+}
+
+.imgBox > img{
+   height: 80vh;
+}
+
+.post1, .post2, .post3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #535353;
+}
+
+.post2 {
+  text-align: justify;
+  margin-top: 80px;
+}
+
+.post3 {
+  color: #105157;
+  text-align: left;
+  margin-top: 40px;
+}
+
+.waitTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #105157;
+}
+
+.electrodesTitle {
+  text-align: left!important;
+}
+
+.waitPost {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: lowercase;
+  color: #105157;
+  margin-top: 25px;
+}
+
+.contentReverse{
+  background-color: red;
+}
+
+
+
+
+
+
+
+
+
+

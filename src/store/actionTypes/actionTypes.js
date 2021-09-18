@@ -1,0 +1,9 @@
+export const SUBMIT_LOGIN = "SUBMIT_LOGIN";
+export const SET_AUTH_USER = "SET_AUTH_USER";
+export const RESET_AUTH_USER = "RESET_AUTH_USER";
+
+export const SET_ALL_PRODUCT = "SET_ALL_PRODUCT";
+
+export const SET_CART_PRODUCT = "SET_CART_PRODUCT";
+
+export const SET_ALL_ORDERS = "SET_ALL_ORDERS";

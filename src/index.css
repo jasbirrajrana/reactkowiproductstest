@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+p {
+  margin: 0;
+}
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+.home-product-image-left {
+  /* transform: scale(0.9); */
+  position: absolute;
+  left: -45px;
+  top: 0;
+}
+.home-product-image-right {
+  position: absolute;
+  right: 0px;
+}
+.home-product-image {
+  position: relative;
+  left: 16px;
+}
+/* uncomment this below code if you want to find ghost html eleme */
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */

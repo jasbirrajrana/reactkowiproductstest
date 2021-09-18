@@ -1,0 +1,121 @@
+.menu {
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+  font-weight: normal;
+  color: #000000;  
+  margin-left: 25px;
+  flex-wrap: wrap;
+  font-family: 'Quicksand';
+}
+
+a {
+  text-decoration: none !important;
+}
+
+
+
+.shadow {
+  -webkit-box-shadow: 0px 0px 20px -5px #0000001a;
+  box-shadow: 0px 0px 20px -5px #0000001a;
+  text-align: center;
+}
+
+.header {
+  background: transparent;
+  z-index: 11;
+  font-family: "Quicksand";
+}
+
+.pdNav {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  z-index: 199;
+  padding-left: 0px;
+  
+}
+
+.pdNav > li > a > span {
+  font-family: 'Quicksand';
+  padding: 5px;
+  font-size: 21px;
+  font-weight: bold;
+  transition: all 0.5s ease;
+  -webkit-box-shadow: 0px 0px 20px -5px #0000001a;
+  box-shadow: 0px 0px 20px -5px #0000001a;
+  background: white;
+  border-radius: 10px 0px 10px 0px;
+}
+.menuBtn {
+  overflow: hidden;
+  outline: 0;
+  padding: 5px;
+  border: 0px;
+}
+
+.homeBtn > img{
+  width: 100px;
+  height: auto;
+}
+
+
+@media screen and (max-width: 1280px){
+  .header{
+     position: relative;
+     left: -5vw;
+  }
+  .container{
+    position: relative;
+    margin-left: 5vw;
+
+  }
+
+  .menu {
+    font-size: 21px;      
+    margin-left: 25px;    
+  }
+
+  .loginBtn {    
+    font-size: 16px;    
+  }
+
+  .homeBtn > img{
+    width: 80px;
+    height: auto;
+  }
+  
+}
+
+@media screen and (max-width: 767px) and (min-width: 375px) {
+  .header {
+    background: #ffffffe0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+  }
+  .pdNav {
+    background-color: white;
+  }
+  .pdNav {
+    display: block;
+    justify-content: space-between;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    margin: 0;
+  }
+  .shadow {
+    box-shadow: none;
+  }
+  .menu,
+  .loginBtn {
+    margin-left: 0px;
+  }
+  .allLink a:hover span {
+    font-weight: 600;
+  }
+}
